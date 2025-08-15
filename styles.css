@@ -76,8 +76,10 @@
     padding: 0 20px;
   }
   .hero .hero-text h1 {
-    font-size: 5vw;
+    font-size: 7vw;
     padding: 20px;
+    margin-bottom: 14vw;
+    user-select: none;
   }
 
   /* Modelos */
