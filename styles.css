@@ -13,7 +13,13 @@
     color: #fff;
     margin: 0;
     padding: 0;
+    overflow: auto; 
+    scrollbar-width: none;
   }
+  body::-webkit-scrollbar {
+  display: none; /* oculta scrollbar en navegadores WebKit */
+  }
+
   a { color: #fff; text-decoration: none; font-size: 1.3vw;}
   a:hover { color: #9134CA; }
 
