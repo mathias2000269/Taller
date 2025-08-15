@@ -55,7 +55,7 @@
   overflow: visible;  /* permite que la imagen sobresalga */
 }
   .logo img {
-  height: 13vw; 
+  height: 8vw; 
   width: 100%;
   object-fit: cover;
 }
