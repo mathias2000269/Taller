@@ -27,7 +27,7 @@
     align-items: center;
     padding: 0px 40px;
     background: rgba(0, 0, 0, 0.4);
-    z-index: 2; /* aseguramos que esté sobre todo */
+    z-index: 1; /* aseguramos que esté sobre todo */
     height: 8vw;
   }
   nav ul {
@@ -58,13 +58,13 @@
     object-fit: cover;
     width: 100%;
     height: 100%;
-    z-index: 1; /* fondo */
+    z-index: 0; /* fondo */
   }
   .hero .overlay {
     position: absolute;
     top: 0; left: 0;
     width: 100%; height: 100%;
-    z-index: 2; /* sobre el video */
+    z-index: -1; 
   }
   .hero .hero-text {
     position: relative;
