@@ -23,7 +23,7 @@ font-family: "Bebas Neue", sans-serif;
   display: none; /* oculta scrollbar en navegadores WebKit */
   }
 
-  a { color: #fff; text-decoration: none; font-size: 1.3vw;}
+  a { color: #fff; text-decoration: none; font-size: 1.5vw;}
   a:hover { color: #9134CA; }
 
   /* Header encima del video */
@@ -86,7 +86,7 @@ font-family: "Bebas Neue", sans-serif;
     padding: 0 20px;
   }
   .hero .hero-text h1 {
-    font-size: 7vw;
+    font-size: 10vw;
     padding: 20px;
     margin-bottom: 14vw;
     user-select: none;
